@@ -31,22 +31,6 @@ const Home = () => {
           </Row>
           </Container>
         </div>
-        {/* <Row>
-          <Col xs={12}>
-            <div className="level" >Beginner</div>
-          </Col>
-          <Col xs={8}>
-            <div className="level">Intermediate</div>
-          </Col>
-          <Col>
-            <div className="level">Advanced</div>
-          </Col>
-        </Row> */}
-        
-        
-        
-      
-      {/* <Button variant="primary">Przycisk2</Button> */}
     </div>
   )
 }

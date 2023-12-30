@@ -1,11 +1,7 @@
-
-
-
 .home{
     background: rgb(54, 54, 54);
     height: 100vh;
     min-height: 600px;
-    /* font-family: 'Fredoka', sans-serif; */
 }
 
 .home h1{
@@ -13,8 +9,6 @@
     padding: 50px 0;
     color: #6c757d;
     font-weight: 550;
-    /* color: rgb(210, 208, 208); */
-    /* color: rgb(87, 110, 145) */
 }
 
 .home-level{

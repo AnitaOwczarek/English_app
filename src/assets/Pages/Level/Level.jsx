@@ -14,7 +14,7 @@ const Level = ({category}) => {
 
   const addStyle = event =>{
     setDivAnimation(!divAnimation)
-    event.currentTarget.classList.toggle('ccc');
+    event.currentTarget.classList.toggle('level-change-card');
   }
   
   const beginnerWords = all_words.filter(word => word.level === 'beginner')
@@ -118,7 +118,6 @@ const Level = ({category}) => {
                   variant="outline-danger" 
                   size="lg"
                   className='level-button'
-                  // onClick={() => setCounter(counter+1)}
                   onClick={() => resultTab('fail', category)}
                   >
                     Wciąż się uczę {failList.length === 0 ? null : failList.length}
