@@ -2,7 +2,7 @@
   "name": "english_app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://anitaowczarek.github.io/English_app/",
+  "homepage": "https://anitaowczarek.github.io/English_app",
   "type": "module",
   "scripts": {
     "dev": "vite",
