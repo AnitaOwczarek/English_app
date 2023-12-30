@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='english_app'>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/beginner' element={<Level category='beginner'/>}/>
