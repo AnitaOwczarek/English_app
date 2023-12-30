@@ -2,14 +2,14 @@
   "name": "english_app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://anitaowczarek.github.io/english_app",
+  "homepage": "https://anitaowczarek.github.io/English_app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
